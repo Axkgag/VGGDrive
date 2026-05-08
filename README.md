@@ -68,13 +68,20 @@ pip install timm==1.0.14 peft==0.14.0 bitsandbytes==0.45.2
 pip install opencv-python==4.11.0.86 pillow==11.1.0
 pip install numpy==1.26.4 pandas==2.2.3 scipy==1.15.2 scikit-learn==1.6.1
 pip install nuscenes-devkit==1.1.11 pyquaternion==0.9.9 shapely==1.8.5.post1
-
+```
 Alternatively, install all dependencies from the provided environment file:
 ```bash
 pip install -r requirements.txt
-
-
-<br><br><br>
+```
+### 2. Run Inference
+Run the NAVSIM inference script to generate prediction results:
+```bash
+bash run_scripts/inference_navsim.sh
+```
+### 2. Evaluation
+Please follow the official NAVSIM v1.1 evaluation protocol:
+[NAVSIM-v1.1](https://github.com/autonomousvision/navsim/tree/v1.1)
+NAVSIM evaluates end-to-end driving performance with simulation-based metrics such as progress and time-to-collision under a non-reactive simulation setting. For detailed setup, dataset preparation, and metric computation, please refer to the official NAVSIM repository.
 
 ## 📌 Citation
 ```
