@@ -56,6 +56,23 @@ with Cross-View Geometric Grounding for Autonomous Driving
 > Please download the pretrained VGGT model weights (`model.pt`) from [vggt](https://github.com/facebookresearch/vggt) and place it in the `./vggt` folder.
 
 ## 🏁 Quick Start
+### 1. Environment
+
+We recommend using Python 3.10+ and CUDA 12.x. The core dependencies used in this project include:
+
+```bash
+pip install torch==2.5.1 torchvision==0.20.1 torchaudio==2.5.1
+pip install transformers==4.49.0 accelerate==1.3.0 datasets==3.2.0
+pip install vllm==0.7.1 flash-attn==2.7.4.post1 xformers==0.0.28.post3
+pip install timm==1.0.14 peft==0.14.0 bitsandbytes==0.45.2
+pip install opencv-python==4.11.0.86 pillow==11.1.0
+pip install numpy==1.26.4 pandas==2.2.3 scipy==1.15.2 scikit-learn==1.6.1
+pip install nuscenes-devkit==1.1.11 pyquaternion==0.9.9 shapely==1.8.5.post1
+
+Alternatively, install all dependencies from the provided environment file:
+```bash
+pip install -r requirements.txt
+
 
 <br><br><br>
 
