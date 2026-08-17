@@ -85,10 +85,12 @@ NAVSIM evaluates end-to-end driving performance with simulation-based metrics su
 
 ## 📌 Citation
 ```
-@article{wang2026vggdrive,
-  title={VGGDrive: Empowering Vision-Language Models with Cross-View Geometric Grounding for Autonomous Driving},
-  author={Wang, Jie and Li, Guang and Huang, Zhijian and Dang, Chenxu and Ye, Hangjun and Han, Yahong and Chen, Long},
-  journal={arXiv preprint arXiv:2602.20794},
-  year={2026}
+@InProceedings{Wang_2026_CVPR,
+    author    = {Wang, Jie and Li, Guang and Huang, Zhijian and Dang, Chenxu and Ye, Hangjun and Han, Yahong and Chen, Long},
+    title     = {VGGDrive: Empowering Vision-Language Models with Cross-View Geometric Grounding for Autonomous Driving},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2026},
+    pages     = {10954-10964}
 }
 ```
